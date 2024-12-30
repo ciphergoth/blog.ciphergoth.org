@@ -1,0 +1,543 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Paul Crowley's Blog - Doug Clow on the Whole Brain Emulation roadmap</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="alternate" type="application/rss+xml" title="ciphergoth: blog entries feed" href="/feeds/rss/blog/" />
+    <link rel="alternate" type="application/rss+xml" title="ciphergoth: comments feed" href="/feeds/rss/comments/" />
+    <link rel="stylesheet" type="text/css" href="/static/ciphergoth/css/style.css"/>
+    <script type="text/javascript" src="/static/ciphergoth/js/tools.js"/></script>
+    
+<link rel="stylesheet" type="text/css" href="/static/css/highlight.css?201504051705" />
+
+<script type="text/javascript" src="/static/js/highlight.pack.js?201504051705"></script>
+<script type="text/javascript">initHighlightingOnLoad();</script>
+<script type="text/javascript" src="/static/js/comments.js?201504051705"></script>
+<script type="text/javascript" src="/static/js/jquery.form.js?201504051705"></script>
+<script type="text/javascript" src="/static/js/ajaxforms.js?201504051705"></script>
+
+<link rel="alternate" type="application/rss+xml" title="ciphergoth: comments on Doug Clow on the Whole Brain Emulation roadmap feed" href="/feeds/atom/comments/14/" />
+<link rel="pingback" href="http://blog.ciphergoth.org/xmlrpc/" />
+<link rev="canonical" href="http://blog.ciphergoth.org/L.O/" />
+
+</head>
+<body>
+    <div id="head">
+        
+
+<div class="title-strip">
+    <div class="left">
+        <h2 class="site-title"><a href="/">ciphergoth</a></h2>
+        <div class="site-description">Paul Crowley&#39;s blog</div>
+        <div class="clear"></div>
+    </div>
+    <div class="right">
+      
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="strip info-strip">
+    <div class="left">
+        <ul class="flat">
+            <li><a href="/about/">About</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="right">
+        
+            <ul class="flat">
+                <li><a class="first last" href="/accounts/login/" onclick="return showLoginForm();">login</a></li>
+            </ul>
+        
+    </div>
+    <div class="clear"></div>
+</div>
+<div id="login-form">
+    <a href="#" onclick="return hideLoginForm();">close</a>
+    <p>Login with password</p>
+    <form action="/accounts/login/" method="post">
+        <input type="text" id="email" name="email" />
+        <input type="password" id="password" name="password" />
+        <input type="submit" value="Login" />
+    </form>
+    <a href="/accounts/reset/">Forgot password?</a>
+    <p>Login with OpenID</p>
+    <form action="/openid/" method="post">
+        <input type="text" id="openid_url" name="openid_url" />
+        <input type="submit" value="Login" />
+    </form>
+</div>
+
+
+    </div>
+    <div id="body">
+        <div id="contentbar">
+            
+
+            <div id="content">
+                
+
+
+<div id="post-14" class="post">
+    <h1>
+        <a href="/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/">Doug Clow on the Whole Brain Emulation&nbsp;roadmap</a>
+    </h1>
+    <div class="metadata">
+      
+        <a href="/blog/2010/02/24/" class="archive" title="Click to see day archive">24</a>.<a href="/blog/2010/02/" class="archive" title="Click to see month archive">02</a>.<a href="/blog/2010/" class="archive" title="Click to see year archive">2010</a>
+ 9:52
+      | <a href="/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/#comments">3
+        comments</a>
+      | <a href="/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/#pingbacks">0
+        pingbacks</a>
+      | 
+
+
+
+
+<a href="/blog/tag/cryonics/"
+   title="Click to filter by cryonics"
+   class="tag"
+   rel="tag">cryonics</a>, 
+
+<a href="/blog/tag/doug%20clow/"
+   title="Click to filter by doug clow"
+   class="tag"
+   rel="tag">doug clow</a>, 
+
+<a href="/blog/tag/guest%20post/"
+   title="Click to filter by guest post"
+   class="tag"
+   rel="tag">guest post</a>, 
+
+<a href="/blog/tag/wbe/"
+   title="Click to filter by wbe"
+   class="tag"
+   rel="tag">wbe</a>
+
+
+    </div>
+    <div class="text">
+    
+      <p>[A guest post from Doug Clow.  This was a comment in <a href="http://blog.ciphergoth.org/blog/2010/02/20/david-matthewman-whole-brain-emulation-roadmap/">this article</a> on Bostrom and Sandberg&#8217;s <a href="http://www.fhi.ox.ac.uk/selected_outputs/fohi_publications/brain_emulation_roadmap">Whole Brain Emulation: a Roadmap</a>, but given its length and substance I am with permission putting it here as a new blog&nbsp;post.]</p>
+
+<p>I too am short of time, but have given this paper a quick run through. Here are some unstructured and unedited quick notes I made while I was at it. Apologies for brevity and errors &mdash; I almost certainly missed some of their points and have misrepresented parts of their&nbsp;case.</p>
+
+<p>It does seem to be a serious and reasonably well-informed piece of work on speculative science and technology. Emphasis on the speculative, though &mdash; which they&nbsp;acknowledge.</p>
+
+<p>The distinction between emulating a brain generically (which I reckon is probably feasible, eventually) and emulating a specific person&#8217;s brain (which I reckon is a lot harder), and emulating a specific dead person&#8217;s brain (which I reckon is probably not possible), is a crucial one. They do make this point and spell it out in Table 1 on p11, and rightly say it’s very&nbsp;hard.</p>
+
+<p>p8 &#8220;An important hypothesis for <span class="caps">WBE</span> is that in order to emulate the brain we do not need to understand the whole system, but rather we just need a database containing all necessary low‐level information about the brain and knowledge of the local update rules that change  brain states from moment to&nbsp;moment.&#8221;</p>
+
+<p>I agree entirely. Without this the ambitious bit of the enterprise fails. (They make the case, correctly, that progress down these lines is useful even if it turns out the big project can’t be done.) I suspect that this hypothesis may be true, but we certainly need to know a lot more about how the whole system works in order to work out what the necessary low-level information and update rules are. And in fact we’ll make interesting scientific progress – as suggested here – by running emulations of bits of the brain we think we might understand and seeing if that produces emergent properties that look like what the brain does. Actually they say this on p15 &#8220;<span class="caps">WBE</span> appears to be a way of testing many of these assumptions experimentally” – I’d be a bit stronger than&nbsp;that.</p>
+
+<p>Table 2 on levels of emulation makes sense. My gut instinct (note evidence base) is that we will need at least level 8 (states of protein complexes – i.e. what shape conformations the (important) proteins are in) to do <span class="caps">WBE</span>, and quite possibly higher ones (though I doubt the quantum level, 11, is needed but Roger Penrose would disagree). Proteins are the actually-existing nanobots that make our cells work. The 3D shape of proteins is critical to their role. Many proteins change shape – and hence what they do or don’t do – in to a smallish fixed number of conformations, and we already know that this can be hugely important to brain function at the gross level. (E.g. transmissible spongiform encaphalopathies – mad cow and all that – are essentially caused by prion proteins in the brain switching from the ordinary shape to the disease-causing&nbsp;one.)</p>
+
+<p>The whole approach is based on scanning an existing brain, in sufficient detail that you can then implement an emulation. I think that’s possibly useful, but I think a more likely successful route to a simulated (!) intelligence will be to grow it, rather than to bring it in to existence fully-formed. By growing, I mean some process akin to the developmental process by which humans come to consciousness: an interaction between an environment and a substrate that can develop in the light of feedback from that environment.
+But based on their approach, their analysis of technological capabilities needed seems&nbsp;plausible.</p>
+
+<p>The one that leaps out as really, really hard (to the point of impossibility in my mind) is the scanning component. There is the unknown of whether the thing is doable at all (what they call scale separation), which is a biggy, but falsifiable by trying out experiments in this direction.
+<!--more-->
+They talk about electron microscopy as being the only technology which offers sufficient resolution. They say that the neuronal/synaptic level would only require trivial increases in microscopy resolution. That’s missing the point. You just can’t scan enough of a brain with the sorts of microscopy that work at that&nbsp;resolution. </p>
+
+<p>(This is leaving aside the entirely non-trivial question David addressed of whether it&#8217;s possible or not to extrapolate from existing technologies to ones that would have sufficient resolution <em>for tiny prepared samples</em>.)</p>
+
+<p>Almost all forms of microscopy that could conceivably come close to being useful here give you an image of an exposed surface. You’re going to need to chop the brain up in to fragments that are thin enough to expose every single synapse, at a minimum. That’s not feasible without destroying at least half of what you’re trying to analyse. When you slice something, you basically smash up a thin column of stuff in the path of the knife (or laser beam, or whatever). And even if you invented some magical way of preparing the samples without that mechanical damage, you’d still have to pull the network of synapses apart in order to expose the surfaces to microscopy&nbsp;.</p>
+
+<p>Sure, you can do it for very small, thin organisms (they mention C. elegans) – because they’re not much more than a couple of neurons thick. But human brains are a lot thicker than that. And anyway, C. elegans was (I strongly suspect) done by scanning loads of individuals and aggregating the date. That’s automatically shut you out of the big-ticket replicating-a-person&nbsp;bit.</p>
+
+<p>Oh, and it’s worth noting that all of this, to be remotely possible, is really quite spectacularly destructive. Your brain is not going to be doing any thinking once this process is done with. Which is another reason why I think growing a simulated/emulated brain is a better research&nbsp;plan.</p>
+
+<p>There are some imaging techniques which don’t require the slice-and-dice bit: <span class="caps">MRI</span> is a better possibility, at least superficially. And this is probably something I could dig in to more later, since I do know quite a lot about the physics/chemistry behind the technique. (Part of my PhD was developing a teaching simulation of an <span class="caps">NMR</span> spectrometer, which is a simpler thing than an <span class="caps">MRI</span> machine.) But off the top of my head it really doesn&#8217;t seem likely for all sorts of reasons &mdash; resolution, in multiple senses (you&#8217;re going to need a radio sensor with finer resolution than is theoretically possible). If you want, nudge me and I&#8217;ll try to find time to spell this out more and may even dredge up enough of the maths to do sums on&nbsp;it.</p>
+
+<p>Their ideas on nanodisassembly seem like nonsense. You can’t build Drexler-type nanobots: the physics/chemistry just doesn’t work like that at that scale. Think proteins, not a teeny version of Robosapien. They say (p51) “Given that no detailed proposal for a nanodisassembler has been <br />
+made it is hard to evaluate the chances of nanodisassembly”. I don’t think it’s hard to evaluate: the chances are negligible to&nbsp;nil.</p>
+
+<p>Chemical analysis – this is really not going to happen. I’d just been thinking about neuronal connections. Blimey, they are really stretching the bounds of what’s even theoretically possible here. There’s several techniques they mention that I don’t know about, but I do know about some and <span class="caps">SFAICT</span> they all suffer from the need-to-break-the-brain-up problem only worse. They mention dyes – but dyes are generally pretty large in chemical terms and will almost certainly destroy information if you perfuse a brain with&nbsp;them. </p>
+
+<p>I’m not paying any attention to the information processing stuff. I could do, and the challenge is large, but (a) my seat-of-the-pants feeling is that Moore’s Law can do more than enough here, and (b) lots of people – ciphergoth included! – are at least as capable as me of doing the detailed scrutiny&nbsp;here.</p>
+
+<p>Likewise the image processing and scan interpretation bit, and the neural simulation component, and so on – that doesn’t strike me as the really theoretically hard part. It might turn out to be practically impossible, of course, but it doesn’t ping my bogosity meter the way the scanning part&nbsp;does.</p>
+
+<p>Ah, actually, one thing on the implementation side that might scale up to be infeasible is if you need to get serious about shape variability of proteins. Calculating possible conformations of proteins is (currently) a classic application that requires Grid computing type resources: it’s at the edge of what we can do with current computing resources. And that’s simply twisting a single smallish protein around. If we have to do that for a large proportion of the proteins in a brain, it’s easily above what’s going to be computationally feasible this side of the singularity. But I suspect we’ll be able to get by with a lot less detail, though not nothing &mdash; e.g. for <span class="caps">TSE</span> prion proteins, we might not have to do the whole calculation of possible conformations for each protein, and how that’s affected by its neighbours: we might well be able to just model it as a location in space and a one-bit state variable indicating whether it’s in normal or <span class="caps">TSE</span> conformation. My guess is that you’d need a bit more than that but not a lot. But that really is a guess that wants empirical&nbsp;testing.</p>
+
+    
+    </div>
+    
+    
+
+<div class="bookmarks">
+Add post to:
+
+<a rel="nofollow" href="http://del.icio.us/post?v=4&amp;noui&amp;jump=close&amp;url=http://blog.ciphergoth.org/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/&amp;title=Doug Clow on the Whole Brain Emulation roadmap" title="Add to Delicious" target="_blank">
+    <img alt="Delicious" src="/static/img/bookmarks/delicious.gif"/>
+</a>
+
+
+<a rel="nofollow" href="http://reddit.com/submit?url=http://blog.ciphergoth.org/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/&amp;title=Doug Clow on the Whole Brain Emulation roadmap" title="Add to Reddit" target="_blank">
+    <img alt="Reddit" src="/static/img/bookmarks/reddit.png"/>
+</a>
+
+
+<a rel="nofollow" href="http://www.slashdot.org/bookmark.pl?url=http://blog.ciphergoth.org/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/&amp;title=Doug Clow on the Whole Brain Emulation roadmap" title="Add to Slashdot" target="_blank">
+    <img alt="Slashdot" src="/static/img/bookmarks/slashdot.gif"/>
+</a>
+
+
+<a rel="nofollow" href="http://digg.com/submit?url=http://blog.ciphergoth.org/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/" title="Add to Digg" target="_blank">
+    <img alt="Digg" src="/static/img/bookmarks/digg.gif"/>
+</a>
+
+
+<a rel="nofollow" href="http://technorati.com/faves?add=http://blog.ciphergoth.org/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/" title="Add to Technorati" target="_blank">
+    <img alt="Technorati" src="/static/img/bookmarks/technorati.png"/>
+</a>
+
+
+<a rel="nofollow" href="http://www.google.com/bookmarks/mark?op=add&amp;title=&amp;bkmk=http://blog.ciphergoth.org/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/&amp;labels=&amp;annotation=Doug Clow on the Whole Brain Emulation roadmap" title="Add to Google" target="_blank">
+    <img alt="Google" src="/static/img/bookmarks/google_002.png"/>
+</a>
+
+
+</div>
+
+
+    
+</div>
+
+
+<span class="control-link">
+  
+  
+    
+    <a class="subscribe-link" href="/watchlist/unsubscribe/blog.post/14/">Unsubscribe</a>
+    
+    (already: 3)
+  
+  <a class="comment-link" onclick="return comment();" href="#">Comment post</a>
+</span>
+
+
+
+
+
+
+
+<div id="comments"><h2>Comments</h2>
+  
+
+  
+  
+  <div
+     style="margin-left:0%"
+     class="blogcomment odd"
+     id="c143">
+    <span class="comment-time"><a href="#c143">29.07.2010 5:35</a></span>
+    <span class="author">
+    Pore&nbsp;G
+
+</span>
+    <div class="text"><p>Thanks for tackling some of the issues&nbsp;Doug. </p>
+
+<p>Disagree that prion protein in C-J shows that protein conformation is crucial for scale separation. The prion protein causes native proteins to get out of their own proper folding&nbsp;equilibriums. </p>
+
+<p>You&#8217;ll find much better examples of why proteins are important by looking at things like subcellular protein concentration differences (i.e. local ribosome synthesis) and the protein composition at post-synaptic&nbsp;densities. </p>
+
+<p>They key is not whether these different proteins, and their folding state, matter. Of course they do. And of course individual amino acids do, and of course the atoms that make them up do. The key question is whether one can model neuron classes, or neuron subclasses, as one distinct type, and accept that you are missing some variability between neurons, but still profitably predict the variation between individual brains. <em>That</em> is scale&nbsp;separation.</p>
+
+<p>Agree that nanoassembly doesn&#8217;t make so much sense. And it might not in the future too. But on the meta level I am willing to accept that people betting against the future advances of science have not had a very good track&nbsp;record. </p>
+
+<p>On imaging side, you seem correct in noting that the best approach would probably be to slice up the brain into little slices and imagine those individually. You&nbsp;say:</p>
+
+<p><span class="dquo">&#8220;</span>That’s not feasible without destroying at least half of what you’re trying to analyse. When you slice something, you basically smash up a thin column of stuff in the path of the knife (or laser beam, or whatever). And even if you invented some magical way of preparing the samples without that mechanical damage, you’d still have to pull the network of synapses apart in order to expose the surfaces to&nbsp;microscopy.&#8221;</p>
+
+<p>There will presumably be some mechanical damage. But one could imagine some kind of knife / laser beam that would imagine as it slices, in the z direction, to capture that information before it is destroyed. This could then be reconstructed&nbsp;later. </p>
+
+<p>Moreover, who&#8217;s to say that the slight slight damage from the small laserbeam will be too much damage? Especially if the laser beam could avoid crucial locations such as synapses or dendritic arborizations, which is certainly technically feasible, then you should be&nbsp;fine. </p>
+
+<p>You note that simulating a brain may be easier, and a &#8220;better plan.&#8221; But there are large ethical and possibly existential risks to this, whereas simply restoring a dead brain to a live one is something that humanity could conceivably be more willing to cope with. Agree that recreating / emulating one individual dead brain should be much more&nbsp;difficult. </p>
+
+<p>They did talk about <span class="caps">EM</span> being really close to the resolution necessary. But you may be interested in reading about a new laser that might be able to go even &#8220;deeper&#8221;, http://home.slac.stanford.edu/pressreleases/2010/20100630.htm&nbsp;.</p>
+</div>
+
+    <div class="comment-links">
+    
+
+    
+
+    
+    </div>
+
+    
+  </div>
+
+  
+  
+  <div
+     style="margin-left:3%"
+     class="blogcomment even creator"
+     id="c144">
+    <span class="comment-time"><a href="#c144">29.07.2010 6:32</a></span>
+    <span class="author">
+    <a href="http://www.ciphergoth.org/">Paul&nbsp;Crowley</a>
+
+</span>
+    <div class="text"><blockquote>
+  <p>people betting against the future advances of science have not had a very good track&nbsp;record. </p>
+</blockquote>
+
+<p>Do we know this? Perhaps the examples of people betting against and being wrong are just more famous than the perhaps more numerous examples of them being&nbsp;right.</p>
+</div>
+
+    <div class="comment-links">
+    
+
+    
+
+    
+    </div>
+
+    
+  </div>
+
+  
+  
+  <div
+     style="margin-left:0%"
+     class="blogcomment odd"
+     id="c147">
+    <span class="comment-time"><a href="#c147">30.07.2010 0:14</a></span>
+    <span class="author">
+    Luke&nbsp;Parrish
+
+</span>
+    <div class="text"><p>Slicing for cryopreservation purposes is easier than slicing for scanning purposes as the slice can be around a millimeter thick. <span class="caps">UV</span> lasers are ~250 nm wide, so only ~1/4000th of the tissue would be&nbsp;intersected.</p>
+
+<p>Once that is achieved, the three methods of revival would be destructive scan, nondestructive scan, and biological reconstruction. The latter could be facilitated by selectively applied printed magnetics and glues that permit the tissue to join at the original spots and seal shut blood vessels. Stem cells, prosthetic neurons and dendrites, etc. could all be sprayed into place during the reanimation&nbsp;process.</p>
+</div>
+
+    <div class="comment-links">
+    
+
+    
+
+    
+    </div>
+
+    
+  </div>
+
+  
+
+  
+</div>
+
+ 
+<span>
+  
+  
+  <a class="subscribe-link" href="/watchlist/unsubscribe/blog.post/14/">Unsubscribe</a>
+  
+  
+  <a class="comment-link" onclick="return comment();" href="#">Comment post</a>
+</span>
+
+
+
+            </div>
+        </div>
+        <div id="sidebar">
+            <div id="side">
+                
+
+
+<div class="block">
+    <div class="header"><span>Last comments</span></div>
+    
+    <ul>
+    
+    <li><span >
+    matt
+
+</span> &raquo; <a href="/blog/2011/08/04/martinenaite-and-tavenier-cryonics/#c172">Martinenaite and Tavenier on cryonics</a></li>
+    
+    <li><span >
+    <a href="http://www.ciphergoth.org/">Paul&nbsp;Crowley</a>
+
+</span> &raquo; <a href="/blog/2010/02/10/more-anti-cryonics-writing/#c171">More on anti-cryonics writing</a></li>
+    
+    <li><span >
+    <a href="http://www.ciphergoth.org/">Paul&nbsp;Crowley</a>
+
+</span> &raquo; <a href="/blog/2011/08/03/professor-david-peggs-remarks-last-word-bbc-radio-4-2011-07-29/#c170">Professor David Pegg&#39;s remarks to &quot;Last Word&quot;, BBC Radio 4, 2011-07-29</a></li>
+    
+    <li><span >
+    Luke&nbsp;Parrish
+
+</span> &raquo; <a href="/blog/2011/08/03/professor-david-peggs-remarks-last-word-bbc-radio-4-2011-07-29/#c169">Professor David Pegg&#39;s remarks to &quot;Last Word&quot;, BBC Radio 4, 2011-07-29</a></li>
+    
+    <li><span >
+    <a href="http://www.ciphergoth.org/">Paul&nbsp;Crowley</a>
+
+</span> &raquo; <a href="/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/#c168">An open letter to scientific critics of cryonics</a></li>
+    
+    </ul>
+    
+</div>
+
+<div class="block">
+    <div class="header"><span>Last posts</span></div>
+    
+    <ul>
+    
+        <li>
+    <a href="/blog/2012/11/22/the-end/">Moving to a new&nbsp;blog</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2012/07/14/in-the-bay-area-very-soon/">In the Bay Area very&nbsp;soon</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2012/01/25/sorry-about-blog-spam/">Sorry about the blog&nbsp;spam</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2011/08/04/martinenaite-and-tavenier-cryonics/">Martinenaite and Tavenier on&nbsp;cryonics</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2011/08/03/professor-david-peggs-remarks-last-word-bbc-radio-4-2011-07-29/">Professor David Pegg&#8217;s remarks to &#8220;Last Word&#8221;, <span class="caps">BBC</span> Radio 4,&nbsp;2011-07-29</a>
+
+</li>
+    
+    </ul>
+    
+</div>
+
+<div class="block">
+    <div class="header"><span>Useful information</span></div>
+    <ul>
+        <li><a title="blog entries feed" href="/feeds/rss/blog/">Blog feed</a></li>
+        <li><a title="comments feed" href="/feeds/rss/comments/">Comments feed</a></li>
+    </ul>
+</div>
+
+<div class="block">
+    <div class="header"><span>Tags</span></div>
+    <ul>
+        
+        
+
+
+
+
+<a href="/blog/tag/admin/"
+   title="Click to filter by admin"
+   class="tag-1"
+   rel="tag">admin</a>
+
+<a href="/blog/tag/cryonics/"
+   title="Click to filter by cryonics"
+   class="tag-4"
+   rel="tag">cryonics</a>
+
+<a href="/blog/tag/david%20matthewman/"
+   title="Click to filter by david matthewman"
+   class="tag-1"
+   rel="tag">david&nbsp;matthewman</a>
+
+<a href="/blog/tag/decision/"
+   title="Click to filter by decision"
+   class="tag-1"
+   rel="tag">decision</a>
+
+<a href="/blog/tag/doug%20clow/"
+   title="Click to filter by doug clow"
+   class="tag-2"
+   rel="tag">doug&nbsp;clow</a>
+
+<a href="/blog/tag/futurism/"
+   title="Click to filter by futurism"
+   class="tag-1"
+   rel="tag">futurism</a>
+
+<a href="/blog/tag/guest%20post/"
+   title="Click to filter by guest post"
+   class="tag-2"
+   rel="tag">guest&nbsp;post</a>
+
+<a href="/blog/tag/links/"
+   title="Click to filter by links"
+   class="tag-1"
+   rel="tag">links</a>
+
+<a href="/blog/tag/meta/"
+   title="Click to filter by meta"
+   class="tag-1"
+   rel="tag">meta</a>
+
+<a href="/blog/tag/pegg/"
+   title="Click to filter by pegg"
+   class="tag-1"
+   rel="tag">pegg</a>
+
+<a href="/blog/tag/theory/"
+   title="Click to filter by theory"
+   class="tag-1"
+   rel="tag">theory</a>
+
+<a href="/blog/tag/wbe/"
+   title="Click to filter by wbe"
+   class="tag-1"
+   rel="tag">wbe</a>
+
+
+    </ul>
+</div>
+
+<div class="block">
+    <div class="header"><span>Me elsewhere</span></div>
+    <ul>
+      <li><a href="http://www.ciphergoth.org/">My website</a></li>
+      <li><a href="http://ciphergoth.livejournal.com/">My LiveJournal</a></li>
+      <li><a href="http://twitter.com/ciphergoth">My Twitter feed</a></li>
+    </ul>
+</div>
+
+<div class="block">
+    <div class="header"><span>Blogroll</span></div>
+    <ul>
+      <li><a href="http://lesswrong.com/">Less Wrong</a></li>
+      <li><a href="http://gretachristina.typepad.com/">Greta Christina</a></li>
+      <li><a href="http://www.fivethirtyeight.com/">Five Thirty Eight</a></li>
+      <li><a href="http://ciphergoth.livejournal.com/friends">My LiveJournal friends</a></li>
+    </ul>
+</div>
+
+
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer">
+        <div class="left">
+</div>
+<div class="right">
+    <div class="statcounters">
+    </div>
+</div>
+<div class="clear"></div>
+
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,408 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Paul Crowley's Blog - Posts</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link rel="alternate" type="application/rss+xml" title="ciphergoth: blog entries feed" href="/feeds/rss/blog/" />
+    <link rel="alternate" type="application/rss+xml" title="ciphergoth: comments feed" href="/feeds/rss/comments/" />
+    <link rel="stylesheet" type="text/css" href="/static/ciphergoth/css/style.css"/>
+    <script type="text/javascript" src="/static/ciphergoth/js/tools.js"/></script>
+    
+<link rel="stylesheet" type="text/css" href="/static/css/highlight.css" />
+<script type="text/javascript" src="/static/js/highlight.js"></script>
+<script type="text/javascript">initHighlightingOnLoad();</script>
+
+
+</head>
+<body>
+    <div id="head">
+        
+
+<div class="title-strip">
+    <div class="left">
+        <h2 class="site-title"><a href="/">ciphergoth</a></h2>
+        <div class="site-description">Paul Crowley&#39;s blog</div>
+        <div class="clear"></div>
+    </div>
+    <div class="right">
+      
+    </div>
+    <div class="clear"></div>
+</div>
+
+<div class="strip info-strip">
+    <div class="left">
+        <ul class="flat">
+            <li><a href="/about/">About</a></li>
+        </ul>
+        <div class="clear"></div>
+    </div>
+    <div class="right">
+        
+            <ul class="flat">
+                <li><a class="first last" href="/accounts/login/" onclick="return showLoginForm();">login</a></li>
+            </ul>
+        
+    </div>
+    <div class="clear"></div>
+</div>
+<div id="login-form">
+    <a href="#" onclick="return hideLoginForm();">close</a>
+    <p>Login with password</p>
+    <form action="/accounts/login/" method="post">
+        <input type="text" id="email" name="email" />
+        <input type="password" id="password" name="password" />
+        <input type="submit" value="Login" />
+    </form>
+    <a href="/accounts/reset/">Forgot password?</a>
+    <p>Login with OpenID</p>
+    <form action="/openid/" method="post">
+        <input type="text" id="openid_url" name="openid_url" />
+        <input type="submit" value="Login" />
+    </form>
+</div>
+
+
+    </div>
+    <div id="body">
+        <div id="contentbar">
+            
+
+            <div id="content">
+                
+
+
+  
+  
+  
+
+  
+
+
+
+
+
+<div id="post-14" class="post">
+    <h2>
+        <a href="/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/">Doug Clow on the Whole Brain Emulation&nbsp;roadmap</a>
+    </h2>
+    <div class="metadata">
+      
+        <a href="/blog/2010/02/24/" class="archive" title="Click to see day archive">24</a>.<a href="/blog/2010/02/" class="archive" title="Click to see month archive">02</a>.<a href="/blog/2010/" class="archive" title="Click to see year archive">2010</a>
+ 9:52
+      | <a href="/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/#comments">3
+        comments</a>
+      | <a href="/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/#pingbacks">0
+        pingbacks</a>
+      | 
+
+
+
+
+<a href="/blog/tag/cryonics/"
+   title="Click to filter by cryonics"
+   class="tag"
+   rel="tag">cryonics</a>, 
+
+<a href="/blog/tag/doug%20clow/"
+   title="Click to filter by doug clow"
+   class="tag"
+   rel="tag">doug clow</a>, 
+
+<a href="/blog/tag/guest%20post/"
+   title="Click to filter by guest post"
+   class="tag"
+   rel="tag">guest post</a>, 
+
+<a href="/blog/tag/wbe/"
+   title="Click to filter by wbe"
+   class="tag"
+   rel="tag">wbe</a>
+
+
+    </div>
+    <div class="text">
+    
+    <p>[A guest post from Doug Clow.  This was a comment in <a href="http://blog.ciphergoth.org/blog/2010/02/20/david-matthewman-whole-brain-emulation-roadmap/">this article</a> on Bostrom and Sandberg&#8217;s <a href="http://www.fhi.ox.ac.uk/selected_outputs/fohi_publications/brain_emulation_roadmap">Whole Brain Emulation: a Roadmap</a>, but given its length and substance I am with permission putting it here as a new blog&nbsp;post.]</p>
+<p>I too am short of time, but have given this paper a quick run through. Here are some unstructured and unedited quick notes I made while I was at it. Apologies for brevity and errors &mdash; I almost certainly missed some of their points and have misrepresented parts of their&nbsp;case.</p>
+<p>It does seem to be a serious and reasonably well-informed piece of work on speculative science and technology. Emphasis on the speculative, though &mdash; which they&nbsp;acknowledge.</p>
+<p>The distinction between emulating a brain generically (which I reckon is probably feasible, eventually) and emulating a specific person&#8217;s brain (which I reckon is a lot harder), and emulating a specific dead person&#8217;s brain (which I reckon is probably not possible), is a crucial one. They do make this point and spell it out in Table 1 on p11, and rightly say it’s very&nbsp;hard.</p>
+<p>p8 &#8220;An important hypothesis for <span class="caps">WBE</span> is that in order to emulate the brain we do not need to understand the whole system, but rather we just need a database containing all necessary low‐level information about the brain and knowledge of the local update rules that change  brain states from moment to&nbsp;moment.&#8221;</p>
+<p>I agree entirely. Without this the ambitious bit of the enterprise fails. (They make the case, correctly, that progress down these lines is useful even if it turns out the big project can’t be done.) I suspect that this hypothesis may be true, but we certainly need to know a lot more about how the whole system works in order to work out what the necessary low-level information and update rules are. And in fact we’ll make interesting scientific progress – as suggested here – by running emulations of bits of the brain we think we might understand and seeing if that produces emergent properties that look like what the brain does. Actually they say this on p15 &#8220;<span class="caps">WBE</span> appears to be a way of testing many of these assumptions experimentally” – I’d be a bit stronger than&nbsp;that.</p>
+<p>Table 2 on levels of emulation makes sense. My gut instinct (note evidence base) is that we will need at least level 8 (states of protein complexes – i.e. what shape conformations the (important) proteins are in) to do <span class="caps">WBE</span>, and quite possibly higher ones (though I doubt the quantum level, 11, is needed but Roger Penrose would disagree). Proteins are the actually-existing nanobots that make our cells work. The 3D shape of proteins is critical to their role. Many proteins change shape – and hence what they do or don’t do – in to a smallish fixed number of conformations, and we already know that this can be hugely important to brain function at the gross level. (E.g. transmissible spongiform encaphalopathies – mad cow and all that – are essentially caused by prion proteins in the brain switching from the ordinary shape to the disease-causing&nbsp;one.)</p>
+<p>The whole approach is based on scanning an existing brain, in sufficient detail that you can then implement an emulation. I think that’s possibly useful, but I think a more likely successful route to a simulated (!) intelligence will be to grow it, rather than to bring it in to existence fully-formed. By growing, I mean some process akin to the developmental process by which humans come to consciousness: an interaction between an environment and a substrate that can develop in the light of feedback from that environment.
+But based on their approach, their analysis of technological capabilities needed seems&nbsp;plausible.</p>
+<p>The one that leaps out as really, really hard (to the point of impossibility in my mind) is the scanning component. There is the unknown of whether the thing is doable at all (what they call scale separation), which is a biggy, but falsifiable by trying out experiments in this direction.
+</p>&nbsp;<span class="read-more"><a href="/blog/2010/02/24/doug-clow-whole-brain-emulation-roadmap/">continue&nbsp;reading</a></span>
+    
+    </div>
+    
+</div>
+
+
+
+
+<div id="post-11" class="post">
+    <h2>
+        <a href="/blog/2010/02/20/david-matthewman-whole-brain-emulation-roadmap/">David Matthewman on the Whole Brain Emulation&nbsp;roadmap</a>
+    </h2>
+    <div class="metadata">
+      
+        <a href="/blog/2010/02/20/" class="archive" title="Click to see day archive">20</a>.<a href="/blog/2010/02/" class="archive" title="Click to see month archive">02</a>.<a href="/blog/2010/" class="archive" title="Click to see year archive">2010</a>
+ 14:08
+      | <a href="/blog/2010/02/20/david-matthewman-whole-brain-emulation-roadmap/#comments">6
+        comments</a>
+      | <a href="/blog/2010/02/20/david-matthewman-whole-brain-emulation-roadmap/#pingbacks">1
+        pingback</a>
+      | 
+
+
+
+
+<a href="/blog/tag/cryonics/"
+   title="Click to filter by cryonics"
+   class="tag"
+   rel="tag">cryonics</a>, 
+
+<a href="/blog/tag/david%20matthewman/"
+   title="Click to filter by david matthewman"
+   class="tag"
+   rel="tag">david matthewman</a>, 
+
+<a href="/blog/tag/guest%20post/"
+   title="Click to filter by guest post"
+   class="tag"
+   rel="tag">guest post</a>, 
+
+<a href="/blog/tag/wbe/"
+   title="Click to filter by wbe"
+   class="tag"
+   rel="tag">wbe</a>
+
+
+    </div>
+    <div class="text">
+    
+      <p>By far the best technical objection I&#8217;ve heard so far is <a href="http://ciphergoth.livejournal.com/353258.html?thread=3631082#t3631082">David Matthewman&#8217;s comments here</a>, discussing Bostrom and Sandberg&#8217;s <a href="http://www.fhi.ox.ac.uk/selected_outputs/fohi_publications/brain_emulation_roadmap">Whole Brain Emulation: a Roadmap</a>:<blockquote> [&#8230;] I still wouldn&#8217;t get your hopes up. As far as I can see, it offers no way to discern the state of the neurons, and admits that while it might be possible to get the structure for a small slice of the brain, getting it in 5nm detail for the whole volume is currently impossible, with no known way to overcome the current technological limitations. Many of those limitations are imposed by the wavelength of the medium you&#8217;re scanning with, and there&#8217;s just no easy way round that. The speed of scanning (which is also currently a showstopper for the ~5nm technologies that might otherwise be attractive) might be able to be improved, but bear in mind that you&#8217;re working at levels where the energy of the electrons/photons that you&#8217;re using to scan risk damaging the sample, and using more of them in parallel may damage it more. The data transfer/storage problem probably is solvable, by&nbsp;contrast.</p>
+
+<p>I find it a bit worrying that the most promising technologies in the table on page [53] &mdash; <span class="caps">SOM</span> and <span class="caps">SEM</span>, especially combined with array tomography &mdash; have relatively little discussion in the text that I can see. This makes me suspect that they&#8217;re only even superficially attractive because not enough is known about them to know they don&#8217;t&nbsp;work.</p>
+
+<p>Also, given that the conclusion says &#8216;this sets a resolution requirement on the order of 5 nm at least in two directions,&#8217; there&#8217;s far too much discussion of technologies that can only scan down to resolutions two orders of magnitude higher than this. So the text gives the optimistic prediction that &#8216;[<span class="caps">KESM</span>] enables the imaging of an entire macroscopic tissue volume such as a mouse brain in reasonable time&#8217;, but what good is that given that <span class="caps">KSEM</span> only scans down to 300nm x 500nm? It&#8217;s an obvious question, and I&#8217;d expect an honestly-written paper to answer it. Because this paper doesn&#8217;t, I smell a rat (or, more likely, someone clutching at&nbsp;straws).</p>
+
+<p>The discussion starts &#8216;As this review shows, <span class="caps">WBE</span> on the neuronal/synaptic level requires relatively modest increases in microscopy resolution&#8230;&#8217; which may be technically true but vastly understates the difficulty of increasing the resolution of the techniques&nbsp;discussed.</p>
+
+<p>Again, though, I&#8217;ll defer to someone who&#8217;s done this stuff more recently than I have (and in a medical area &mdash; I was mostly looking at metal-matrix composites rather than anything organic).</blockquote>This stands out from the field in that it is actually in reply to something that someone who believes in cryonics has actually said; it only doesn&#8217;t meet the criteria that I asked for in my <a href="http://blog.ciphergoth.org/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/">open letter</a> in that it is <a href="http://blog.ciphergoth.org/blog/2010/02/15/blog-comments-and-article/">blog comment rather than an article</a>, but knowing how busy David is it&#8217;s hard to imagine him finding the time to rewrite it in article form any time soon, so with his permission I&#8217;m posting it as&nbsp;is.</p>
+
+<p>Updated 2010-02-20: <a href="http://lproven.livejournal.com/279235.html">Liam Proven steps up to the plate</a> and meets three of my <a href="http://blog.ciphergoth.org/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/">four criteria</a>.  Thanks&nbsp;Liam!</p>
+
+    
+    </div>
+    
+</div>
+
+
+
+
+    <div class="pagination">
+
+</div>
+
+
+
+
+            </div>
+        </div>
+        <div id="sidebar">
+            <div id="side">
+                
+
+
+<div class="block">
+    <div class="header"><span>Last comments</span></div>
+    
+    <ul>
+    
+    <li><span >
+    matt
+
+</span> &raquo; <a href="/blog/2011/08/04/martinenaite-and-tavenier-cryonics/#c172">Martinenaite and Tavenier on cryonics</a></li>
+    
+    <li><span >
+    <a href="http://www.ciphergoth.org/">Paul&nbsp;Crowley</a>
+
+</span> &raquo; <a href="/blog/2010/02/10/more-anti-cryonics-writing/#c171">More on anti-cryonics writing</a></li>
+    
+    <li><span >
+    <a href="http://www.ciphergoth.org/">Paul&nbsp;Crowley</a>
+
+</span> &raquo; <a href="/blog/2011/08/03/professor-david-peggs-remarks-last-word-bbc-radio-4-2011-07-29/#c170">Professor David Pegg&#39;s remarks to &quot;Last Word&quot;, BBC Radio 4, 2011-07-29</a></li>
+    
+    <li><span >
+    Luke&nbsp;Parrish
+
+</span> &raquo; <a href="/blog/2011/08/03/professor-david-peggs-remarks-last-word-bbc-radio-4-2011-07-29/#c169">Professor David Pegg&#39;s remarks to &quot;Last Word&quot;, BBC Radio 4, 2011-07-29</a></li>
+    
+    <li><span >
+    <a href="http://www.ciphergoth.org/">Paul&nbsp;Crowley</a>
+
+</span> &raquo; <a href="/blog/2010/02/14/an-open-letter-to-scientific-critics-of-cryonics/#c168">An open letter to scientific critics of cryonics</a></li>
+    
+    </ul>
+    
+</div>
+
+<div class="block">
+    <div class="header"><span>Last posts</span></div>
+    
+    <ul>
+    
+        <li>
+    <a href="/blog/2012/11/22/the-end/">Moving to a new&nbsp;blog</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2012/07/14/in-the-bay-area-very-soon/">In the Bay Area very&nbsp;soon</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2012/01/25/sorry-about-blog-spam/">Sorry about the blog&nbsp;spam</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2011/08/04/martinenaite-and-tavenier-cryonics/">Martinenaite and Tavenier on&nbsp;cryonics</a>
+
+</li>
+    
+        <li>
+    <a href="/blog/2011/08/03/professor-david-peggs-remarks-last-word-bbc-radio-4-2011-07-29/">Professor David Pegg&#8217;s remarks to &#8220;Last Word&#8221;, <span class="caps">BBC</span> Radio 4,&nbsp;2011-07-29</a>
+
+</li>
+    
+    </ul>
+    
+</div>
+
+<div class="block">
+    <div class="header"><span>Useful information</span></div>
+    <ul>
+        <li><a title="blog entries feed" href="/feeds/rss/blog/">Blog feed</a></li>
+        <li><a title="comments feed" href="/feeds/rss/comments/">Comments feed</a></li>
+    </ul>
+</div>
+
+<div class="block">
+    <div class="header"><span>Tags</span></div>
+    <ul>
+        
+        
+
+
+
+
+<a href="/blog/tag/admin/"
+   title="Click to filter by admin"
+   class="tag-1"
+   rel="tag">admin</a>
+
+<a href="/blog/tag/cryonics/"
+   title="Click to filter by cryonics"
+   class="tag-4"
+   rel="tag">cryonics</a>
+
+<a href="/blog/tag/david%20matthewman/"
+   title="Click to filter by david matthewman"
+   class="tag-1"
+   rel="tag">david&nbsp;matthewman</a>
+
+<a href="/blog/tag/decision/"
+   title="Click to filter by decision"
+   class="tag-1"
+   rel="tag">decision</a>
+
+<a href="/blog/tag/doug%20clow/"
+   title="Click to filter by doug clow"
+   class="tag-2"
+   rel="tag">doug&nbsp;clow</a>
+
+<a href="/blog/tag/futurism/"
+   title="Click to filter by futurism"
+   class="tag-1"
+   rel="tag">futurism</a>
+
+<a href="/blog/tag/guest%20post/"
+   title="Click to filter by guest post"
+   class="tag-2"
+   rel="tag">guest&nbsp;post</a>
+
+<a href="/blog/tag/links/"
+   title="Click to filter by links"
+   class="tag-1"
+   rel="tag">links</a>
+
+<a href="/blog/tag/meta/"
+   title="Click to filter by meta"
+   class="tag-1"
+   rel="tag">meta</a>
+
+<a href="/blog/tag/pegg/"
+   title="Click to filter by pegg"
+   class="tag-1"
+   rel="tag">pegg</a>
+
+<a href="/blog/tag/theory/"
+   title="Click to filter by theory"
+   class="tag-1"
+   rel="tag">theory</a>
+
+<a href="/blog/tag/wbe/"
+   title="Click to filter by wbe"
+   class="tag-1"
+   rel="tag">wbe</a>
+
+
+    </ul>
+</div>
+
+<div class="block">
+    <div class="header"><span>Me elsewhere</span></div>
+    <ul>
+      <li><a href="http://www.ciphergoth.org/">My website</a></li>
+      <li><a href="http://ciphergoth.livejournal.com/">My LiveJournal</a></li>
+      <li><a href="http://twitter.com/ciphergoth">My Twitter feed</a></li>
+    </ul>
+</div>
+
+<div class="block">
+    <div class="header"><span>Blogroll</span></div>
+    <ul>
+      <li><a href="http://lesswrong.com/">Less Wrong</a></li>
+      <li><a href="http://gretachristina.typepad.com/">Greta Christina</a></li>
+      <li><a href="http://www.fivethirtyeight.com/">Five Thirty Eight</a></li>
+      <li><a href="http://ciphergoth.livejournal.com/friends">My LiveJournal friends</a></li>
+    </ul>
+</div>
+
+
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div id="footer">
+        <div class="left">
+</div>
+<div class="right">
+    <div class="statcounters">
+    </div>
+</div>
+<div class="clear"></div>
+
+
+    </div>
+
+</body>
+</html>
